@@ -151,6 +151,7 @@ import java.util.Stack;
     /**
      * Initializes a complete directed graph.
      * @param labels the lables for the vertices
+     * @param weight the weight associated with the corresponding edge.
      */
     public EdgeWeightedDigraph(Object[] labels, BigDecimal[][] weight){
             if(weight.length * weight[0].length != labels.length * labels.length)
